@@ -1,1 +1,2 @@
-# arquitectura
+# integrantes
+yur mariana bejarano
