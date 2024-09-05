@@ -10,5 +10,4 @@ santiago cortes
 
 
 ## Descripcion
-
-prueba de la actualizacion del commit prueba 2
+agregar readme de sum1b a carpeta sum1b
