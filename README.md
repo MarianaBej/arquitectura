@@ -1,2 +1,2 @@
 # integrantes
-yur mariana bejarano
+yuri mariana bejarano
