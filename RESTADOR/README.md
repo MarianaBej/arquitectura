@@ -1,7 +1,7 @@
 # **Restador en Verilog**
 Un **restador** es un circuito combinacional que realiza la resta entre dos o más bits binarios. Al igual que el sumador, es un bloque básico en sistemas digitales que se utiliza para realizar operaciones aritméticas más complejas. Este tipo de restador puede ser utilizado para restar números de mayor tamaño cuando se conectan varios de estos bloques en serie.
 
-## **2. Tabla de Contenidos**
+## **Tabla de Contenidos**
 1. [Introducción]()  
 2. [Tabla de Contenidos](#tabla-de-contenidos)  
 3. [Descripción del Proyecto](#descripción-del-proyecto)
