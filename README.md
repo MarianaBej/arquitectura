@@ -6,7 +6,7 @@
     Andres Pacheco Fajardo, 50282
     Santiago Cortes Garay, 112335
     William Aranguren Joya, 45287
-    Kevin Alejandro Lizarazo Rodrifuez, 119872
+    Kevin Alejandro Lizarazo Rodriguez, 119872
 
     ASIGNATURA: Arquitectura de procesadores.
     PROFESORA: Diana Maldonado  
