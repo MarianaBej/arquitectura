@@ -3,7 +3,7 @@
 ## **Sumador, Restador y Multiplicador**  
     INTEGRANTES GRUPO 2:
     Yuri Mariana Bejarano Huerfano, 72024
-    Alejandro Pacheco Fajardo, 50282
+    Andres Pacheco Fajardo, 50282
     Santiago Cortes Garay, 112335
     William Aranguren Joya, 45287
     Kevin Alejandro Lizarazo Rodrifuez, 119872

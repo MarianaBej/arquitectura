@@ -1,4 +1,4 @@
-# Sumador en verilog
+# Sumador en Verilog
 Los sumadores son circuitos esenciales que permiten realizar operaciones aritméticas, como la suma de números binarios. Los sumadores se utilizan tanto en procesadores como en unidades aritmético-lógicas (ALUs). Este informe aborda dos tipos de sumadores: el sumador de 1 bit, que es el bloque básico, y el sumador de 4 bits, una implementación modular construida a partir del sumador de 1 bit.
 
 ## **Tabla de Contenido**
