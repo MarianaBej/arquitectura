@@ -1,7 +1,7 @@
 
 # **INFORME DE LABORATORIO**
 ## **Sumador, Restador y Multiplicador**  
-    INTEGRANTES:
+    INTEGRANTES GRUPO 2:
     Yuri Mariana Bejarano Huerfano, 72024
     Alejandro Pacheco Fajardo, 50282
     Santiago Cortes Garay, 112335
