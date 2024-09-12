@@ -21,8 +21,4 @@ module rest4b (
 
   sum4b s0 (.A(A), .B({b3,b2,b1,b0}), .Ci(sel),  .Cout(Cout) ,.Sum(Rest));
   
-  case (status)
-    NEG:  
-    default: 
-  endcase
 endmodule
