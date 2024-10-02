@@ -1,0 +1,627 @@
+$date
+	Wed Sep 25 21:57:12 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu_tb $end
+$scope module uut $end
+$var wire 3 ! A [2:0] $end
+$var wire 3 " B [2:0] $end
+$var wire 2 # Op [1:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % init $end
+$var wire 1 & done $end
+$var wire 1 ' c_out $end
+$var wire 3 ( _sum [2:0] $end
+$var wire 3 ) _rest [2:0] $end
+$var wire 6 * _mult [5:0] $end
+$var reg 6 + out_op [5:0] $end
+$scope module s0 $end
+$var wire 3 , A [2:0] $end
+$var wire 3 - B [2:0] $end
+$var wire 1 . Ci $end
+$var wire 1 / c2 $end
+$var wire 1 0 c1 $end
+$var wire 3 1 Sum [2:0] $end
+$var wire 1 2 Cout $end
+$scope module s0 $end
+$var wire 1 3 A $end
+$var wire 1 4 B $end
+$var wire 1 . Ci $end
+$var wire 1 5 Sum $end
+$var wire 1 0 Cout $end
+$var reg 2 6 result [1:0] $end
+$upscope $end
+$scope module s1 $end
+$var wire 1 7 A $end
+$var wire 1 8 B $end
+$var wire 1 0 Ci $end
+$var wire 1 9 Sum $end
+$var wire 1 / Cout $end
+$var reg 2 : result [1:0] $end
+$upscope $end
+$scope module s2 $end
+$var wire 1 ; A $end
+$var wire 1 < B $end
+$var wire 1 / Ci $end
+$var wire 1 = Sum $end
+$var wire 1 2 Cout $end
+$var reg 2 > result [1:0] $end
+$upscope $end
+$upscope $end
+$scope module s1 $end
+$var wire 3 ? A [2:0] $end
+$var wire 3 @ B [2:0] $end
+$var wire 1 A b0 $end
+$var wire 1 B b1 $end
+$var wire 1 C b2 $end
+$var wire 1 D sel $end
+$var wire 3 E Rest [2:0] $end
+$var wire 1 ' Cout $end
+$scope module s0 $end
+$var wire 3 F A [2:0] $end
+$var wire 3 G B [2:0] $end
+$var wire 1 D Ci $end
+$var wire 1 H c2 $end
+$var wire 1 I c1 $end
+$var wire 3 J Sum [2:0] $end
+$var wire 1 ' Cout $end
+$scope module s0 $end
+$var wire 1 K A $end
+$var wire 1 L B $end
+$var wire 1 D Ci $end
+$var wire 1 M Sum $end
+$var wire 1 I Cout $end
+$var reg 2 N result [1:0] $end
+$upscope $end
+$scope module s1 $end
+$var wire 1 O A $end
+$var wire 1 P B $end
+$var wire 1 I Ci $end
+$var wire 1 Q Sum $end
+$var wire 1 H Cout $end
+$var reg 2 R result [1:0] $end
+$upscope $end
+$scope module s2 $end
+$var wire 1 S A $end
+$var wire 1 T B $end
+$var wire 1 H Ci $end
+$var wire 1 U Sum $end
+$var wire 1 ' Cout $end
+$var reg 2 V result [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module s2 $end
+$var wire 3 W MD [2:0] $end
+$var wire 3 X MR [2:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % init $end
+$var wire 1 Y z $end
+$var parameter 32 Z ADD $end
+$var parameter 32 [ CHECK $end
+$var parameter 32 \ END1 $end
+$var parameter 32 ] SHIFT $end
+$var parameter 32 ^ START $end
+$var reg 6 _ A [5:0] $end
+$var reg 3 ` B [2:0] $end
+$var reg 1 a add $end
+$var reg 1 & done $end
+$var reg 6 b pp [5:0] $end
+$var reg 1 c rst $end
+$var reg 1 d sh $end
+$var reg 3 e status [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b0 ^
+b11 ]
+b100 \
+b1 [
+b10 Z
+$end
+#0
+$dumpvars
+b1 e
+0d
+1c
+b0 b
+0a
+b0 `
+b0 _
+1Y
+bx X
+bx W
+bx V
+xU
+xT
+xS
+b0 R
+0Q
+xP
+xO
+bx N
+xM
+xL
+xK
+bx0x J
+xI
+0H
+bx G
+bx F
+bx0x E
+1D
+xC
+xB
+xA
+bx @
+bx ?
+bx >
+x=
+x<
+x;
+b0 :
+09
+x8
+x7
+bx 6
+x5
+x4
+x3
+x2
+bx0x 1
+x0
+0/
+0.
+bx -
+bx ,
+b0 +
+b0 *
+bx0x )
+bx0x (
+x'
+0&
+1%
+0$
+bx #
+bx "
+bx !
+$end
+#1000
+xY
+bx `
+b0xxx _
+1$
+#2000
+b1x e
+0c
+0$
+#3000
+1$
+#4000
+b0 e
+0$
+#5000
+1$
+#6000
+1c
+b1 e
+0$
+#7000
+1$
+#8000
+b1x e
+0c
+0$
+#9000
+1$
+#10000
+b0 e
+1U
+0'
+b1 V
+1M
+0I
+b1 N
+0L
+1P
+0T
+15
+00
+19
+0/
+b111 (
+b111 1
+1=
+02
+b101 )
+b101 E
+b101 J
+0Q
+1H
+0A
+1B
+b10 G
+0C
+b1 6
+b1 :
+b1 >
+b10 R
+14
+08
+1<
+03
+17
+0;
+0K
+1O
+0S
+b111 +
+0$
+b101 "
+b101 -
+b101 @
+b101 W
+b10 !
+b10 ,
+b10 ?
+b10 F
+b10 X
+b0 #
+#11000
+1$
+#12000
+1c
+b1 e
+0$
+#13000
+0Y
+b10 `
+b101 _
+1$
+#14000
+b11 e
+0c
+0$
+#15000
+1$
+#16000
+b1 e
+1d
+0$
+#17000
+b1 `
+b1010 _
+1$
+#18000
+b10 e
+0d
+0$
+#19000
+1$
+#20000
+b11 e
+1a
+b111101 +
+0$
+b1 #
+#21000
+b1010 *
+b1010 b
+1$
+#22000
+b1 e
+0a
+1d
+0$
+#23000
+1Y
+b0 `
+b10100 _
+1$
+#24000
+b11 e
+0d
+0$
+#25000
+1$
+#26000
+b100 e
+1d
+0$
+#27000
+b101000 _
+1$
+#28000
+b0 e
+0d
+1&
+0$
+#29000
+1$
+#30000
+1c
+0&
+b1 e
+0$
+b10 #
+#31000
+0Y
+b0 *
+b0 b
+b10 `
+b101 _
+1$
+#32000
+b11 e
+0c
+0$
+#33000
+1$
+#34000
+b1 e
+1d
+0$
+#35000
+b1 `
+b1010 _
+1$
+#36000
+b10 e
+0d
+0$
+#37000
+1$
+#38000
+b11 e
+1a
+0$
+#39000
+b1010 *
+b1010 b
+1$
+#40000
+b1 e
+0a
+1d
+0$
+#41000
+1Y
+b0 `
+b10100 _
+1$
+#42000
+b11 e
+0d
+0$
+#43000
+1$
+#44000
+b100 e
+1d
+0$
+#45000
+b101000 _
+1$
+#46000
+b0 e
+0d
+1&
+0$
+#47000
+1$
+#48000
+1c
+0&
+b1 e
+0$
+#49000
+0Y
+b10 `
+b101 _
+b0 *
+b0 b
+1$
+#50000
+b11 e
+0c
+0$
+#51000
+1$
+#52000
+b1 e
+1d
+0$
+#53000
+b1 `
+b1010 _
+1$
+#54000
+b10 e
+0d
+0$
+#55000
+1$
+#56000
+b11 e
+1a
+0$
+#57000
+b1010 *
+b1010 b
+1$
+#58000
+b1 e
+0a
+1d
+0$
+#59000
+1Y
+b0 `
+b10100 _
+1$
+#60000
+b11 e
+0d
+0$
+#61000
+1$
+#62000
+b100 e
+1d
+0$
+#63000
+b101000 _
+1$
+#64000
+b0 e
+0d
+1&
+0$
+#65000
+1$
+#66000
+1c
+0&
+b1 e
+0$
+#67000
+0Y
+b0 *
+b0 b
+b10 `
+b101 _
+1$
+#68000
+b11 e
+0c
+0$
+#69000
+1$
+#70000
+b1 e
+1d
+0$
+#71000
+b1 `
+b1010 _
+1$
+#72000
+b10 e
+0d
+0$
+#73000
+1$
+#74000
+b11 e
+1a
+0$
+#75000
+b1010 *
+b1010 b
+1$
+#76000
+b1 e
+0a
+1d
+0$
+#77000
+1Y
+b0 `
+b10100 _
+1$
+#78000
+b11 e
+0d
+0$
+#79000
+1$
+#80000
+b100 e
+1d
+0$
+#81000
+b101000 _
+1$
+#82000
+b0 e
+0d
+1&
+0$
+#83000
+1$
+#84000
+1c
+0&
+b1 e
+0$
+#85000
+0Y
+b10 `
+b101 _
+b0 *
+b0 b
+1$
+#86000
+b11 e
+0c
+0$
+#87000
+1$
+#88000
+b1 e
+1d
+0$
+#89000
+b1 `
+b1010 _
+1$
+#90000
+b10 e
+0d
+0$
+#91000
+1$
+#92000
+b11 e
+1a
+0$
+#93000
+b1010 *
+b1010 b
+1$
+#94000
+b1 e
+0a
+1d
+0$
+#95000
+1Y
+b0 `
+b10100 _
+1$
+#96000
+b11 e
+0d
+0$
+#97000
+1$
+#98000
+b100 e
+1d
+0$
+#99000
+b101000 _
+1$
+#100000
+b0 e
+0d
+1&
+0$
